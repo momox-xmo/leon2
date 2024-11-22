@@ -6,17 +6,32 @@
     <title>Yabanci | mp4</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <link rel="icon" href="resources/assets/favicon.png" type="image/png">
 
 </head>
 
 
 <body>
-<div  id="header"></div>    
+
+<div  id="header"></div>
+
+<div class="loader_wrapper" style="background-color:black;">
+    <div class="loader"></div>
+</div>
 
 <div class="video_container">
-    <div class="video"><video src="resources/mp4/video_frozen.mp4" controls > </video>
+        <div class="video"><video src="resources/mp4/music_videos/video_kum.webm" controls poster="resources/mp4/music_videos/video_kum_poster.webp"> </video>
+            <div class="video_id">
+                <div><p>Kum & Bedeviler - Uykusuz</p></div>
+                 <div><p>Dir: Yabancı</p></div>
+            </div>   
+        </div>   
+</div>
+    
+<div class="video_container">
+    <div class="video"><video src="resources/mp4/music_videos/video_frozen.webm" controls > </video>
         <div class="video_id">
             <div><p>Frozen Clouds feat. 3pillie - Hatıran</p></div>
              <div><p>Dir: Yabancı</p></div>
@@ -24,16 +39,9 @@
     </div>   
 </div>
 
-<div class="video_container">
-    <div class="video"><video src="resources/mp4/video_kum.mp4" controls poster="resources/mp4/video_kum_poster.png"> </video>
-        <div class="video_id">
-            <div><p>Kum & Bedeviler - Uykusuz</p></div>
-             <div><p>Dir: Yabancı</p></div>
-        </div>   
-    </div>   
-</div>
+<div class="wrapper box_container motion_container"></div>
 
-
+<div id="footer"></div>
 
 
 
@@ -43,11 +51,7 @@
    
 </div> -->
 
-
-
-
-
-<div class="box_container">
+<!-- <div class="box_container">
 
    
     <div class="content_box">
@@ -73,16 +77,7 @@
     <div></div>
     </div>
    
-</div>
+</div> -->
 
-
-
-
-
-<div id="footer"></div>
-
-
-    
-<script src="script.js"></script>
 
 </body>

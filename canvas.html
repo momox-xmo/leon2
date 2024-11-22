@@ -6,42 +6,27 @@
     <title>Yabanci | canvas</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <link rel="icon" href="resources/assets/favicon.png" type="image/png">
-
-
-
 </head>
 
 
 <body>
+
     <div id="header"></div>
 
-
-    
-<div class="bug" id="bug" style="display: none;">
-        <video id="bugVideo" src="resources/assets/Bug.webm" muted></video>
+    <div class="loader_wrapper">
+        <div class="loader"></div>
     </div>
     
-    <div class="box_container" class="container">
 
-        
-        <div class="content_box canvas_box">
-        </div>
-
-
-
-
-      
+    <div class="bug" id="bug" style="display: none;">
+        <video id="bugVideo" src="resources/assets/Bug.webm"  muted ></video>
     </div>
-  
-</div>
 
+    <div class="box_container canvas_container"></div>
 
-
-
-<div id="footer"></div>
-
-<script src="script.js"></script>
-
+    <div id="footer"></div>
+    
 </body>
